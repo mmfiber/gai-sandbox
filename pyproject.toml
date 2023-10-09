@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gai-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["mmfiber <masa.03191996@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+qdrant-client = "^1.5.4"
+sentence-transformers = "^2.2.2"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+tqdm = "^4.66.1"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
